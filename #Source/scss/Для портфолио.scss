@@ -93,6 +93,9 @@ html,body{
 	color: $color_4;
 	text-transform: uppercase;
 	font-size: $fz_4;
+	&:hover{
+		color: $color_5;
+	}
 }
 
 // Рисуем бургер меню + адаптация

@@ -129,6 +129,8 @@ html, body {
   color: #000;
   text-transform: uppercase;
   font-size: 20px; }
+  .header_link:hover {
+    color: #00ffff; }
 
 @media (max-width: 767px) {
   body.lock {

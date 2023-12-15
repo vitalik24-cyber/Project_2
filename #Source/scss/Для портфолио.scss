@@ -170,10 +170,14 @@ html,body{
 	}
 	.header_list li{
 		margin: 0px 0px 20px 0px;
+
 	}
 	.header_link{
 		color: $color_4;
 		font-size: $fz_5;
+		&:hover{
+			color: $color_5;
+		}
 	}
 }
 //

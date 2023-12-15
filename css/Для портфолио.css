@@ -58,7 +58,8 @@ h1, h2, h3, h4, h5, h6 {
   font-size: inherit;
   font-weight: 400; }
 
-html, body {
+html,
+body {
   height: 100%;
   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif; }
 
@@ -75,7 +76,7 @@ html, body {
   z-index: 50; }
 
 .header:before {
-  content: '';
+  content: "";
   position: absolute;
   top: 0;
   left: 0;
@@ -131,6 +132,8 @@ html, body {
   font-size: 20px; }
   .header_link:hover {
     color: #00ffff; }
+  .header_link:active {
+    color: #fff; }
 
 @media (max-width: 767px) {
   body.lock {
@@ -161,7 +164,7 @@ html, body {
     transition: all 0.3s ease 0s; }
   .header_burger:before,
   .header_burger:after {
-    content: '';
+    content: "";
     background-color: #fff;
     position: absolute;
     width: 100%;
@@ -222,7 +225,9 @@ html, body {
 .content_text p {
   margin: 0px 0px 20px 0px;
   text-indent: 30px;
-  text-align: justify; }
+  text-align: justify;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-style: italic; }
 
 @media (max-width: 767px) {
   .content {

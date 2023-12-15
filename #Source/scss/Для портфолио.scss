@@ -92,7 +92,7 @@ html,body{
 .header_link {
 	color: $color_4;
 	text-transform: uppercase;
-	font-size: $fz_3;
+	font-size: $fz_4;
 }
 
 // Рисуем бургер меню + адаптация
@@ -172,6 +172,7 @@ html,body{
 		margin: 0px 0px 20px 0px;
 	}
 	.header_link{
+		color: $color_4;
 		font-size: $fz_5;
 	}
 }

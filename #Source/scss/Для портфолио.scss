@@ -1,7 +1,7 @@
 // Обнуление
 @import "Nullstyles.scss";
 // Кодировка
-@charset "UTF-8";
+//@charset "UTF-8";
 // Шрифты
 @import url('https://fonts.googleapis.com/css2?family=Hedvig+Letters+Serif&family=Oswald:wght@400;600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Hedvig+Letters+Serif&family=Whisper&display=swap');
@@ -25,7 +25,7 @@ html,body{
 	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
 }
 // ОБОЛОЧКА
-.wrapper {}
+//.wrapper {}
 
 .container{
 	max-width: 1180px;
@@ -75,7 +75,7 @@ html,body{
 	height: 40px;
 	display: block;
 }
-.header_menu {}
+//.header_menu {}
 
 .header_burger {
 	display: none;
@@ -90,7 +90,7 @@ html,body{
 	margin: 0px 0px 0px 20px;
 }
 .header_link {
-	color: $color_1;
+	color: $color_4;
 	text-transform: uppercase;
 	font-size: $fz_3;
 }

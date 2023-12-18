@@ -240,15 +240,25 @@ body {
 .content_text {
   font-size: 18px;
   line-height: 25px;
+  margin: 0px 0px 20px 10px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  letter-spacing: normal;
 }
 
-.content_text p {
-  margin: 0px 0px 20px 0px;
-  text-indent: 30px;
+.content_text_intro p {
+  font-family: Oswald;
+  text-align: center;
+  font-size: 25px;
+  font-weight: 600;
+  margin-bottom: 25px;
+  font-style: normal;
+}
+
+.content_text_intro_2 p {
   text-align: justify;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-style: italic;
-  letter-spacing: normal;
+  font-weight: 400;
+  font-style: normal;
+  text-indent: 30px;
 }
 
 @media (max-width: 767px) {
